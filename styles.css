@@ -1,45 +1,35 @@
-/*  your css code here. If applicable */
-*{
-	background-color:rgb(135, 206, 235);
-}
-#f{
-	background-color:black;
-	color:white;
-}
-#f1{
-	color:red;
-}
-#ex1{
-	background-color:white;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-#ex2{
-	background-color:grey;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-#ex3{
-	background-color:pink;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-#ex4{
-	background-color:grey;
-	width:50%;
-	padding:10px;
-	font-size:22px;
-}
-#ex5{
-	background-color:white;
-	width:50%;
-	padding:10px;
-	font-size:22px;
+* {
+  background-color: rgb(135, 206, 235);
 }
 
+p:first-child {
+  background-color: black;
+  color: white;
+}
 
+p:nth-child(2) {
+  color: initial;
+}
 
+p:nth-child(3) {
+  color: initial;
+}
 
+p:last-child {
+  color: red;
+}
+
+ul li {
+  background-color: grey;
+  width: 50%;
+  padding: 10px;
+  font-size: 22px;
+}
+
+ul li:nth-child(odd) {
+  background-color: white;
+}
+
+ul li:nth-child(3) {
+  background-color: pink;
+}
